@@ -1,5 +1,9 @@
 body{
     background: rgb(163, 20, 20);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
+   
 }
 
 #titlle, .sub_titlle, .post_titlle{
@@ -27,14 +31,20 @@ body{
 .post_content{
     margin: 0;
     margin-bottom: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+
 
 
 }
 
 .post_image{
    margin-bottom: 15px; 
-   
+   width: 100%;
+}
+
+a {
+text-decoration: none;
+    color: rgb(163, 20, 20);
 }
 
 .image_principal{
@@ -52,3 +62,13 @@ body{
 
 }
 
+.text_list{
+    list-style-type: none;
+    padding-left: 15px;
+    
+}
+
+.text_list li a {
+    text-decoration: none ;
+
+}
