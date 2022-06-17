@@ -1,0 +1,54 @@
+body{
+    background: rgb(163, 20, 20);
+}
+
+#titlle, .sub_titlle, .post_titlle{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.post_titlle{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+
+}
+
+.post {
+    background:  rgba(187, 155, 12, 0.938);
+    padding: 100px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 150px;
+    margin-bottom: 15px;
+
+}
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.post_image{
+   margin-bottom: 15px; 
+   
+}
+
+.image_principal{
+    border: 10px solid black;
+    border-radius: 150px;
+
+}
+
+.rodape{
+    background: rgba(187, 155, 12, 0.938);
+    padding: 10px;
+    margin: -8px;
+    border: 3px solid black;
+    border-radius: 10px;
+
+}
+
