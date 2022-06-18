@@ -1,0 +1,105 @@
+/* .flex{ */
+    /* max-width: 300px; */
+    /* padding: 10px; */
+    /* border: 2px solid black; */
+    /* display: flex; */
+/* } */
+/*  */
+/* .item{ */
+    /* background-color: aqua; */
+    /* margin:5px; */
+/* } */
+
+            /* ROW E ROW-REVERSE */
+/* .flex-container{ */
+    /* margin:0; */
+    /* padding: 0; */
+    /* display: flex; */
+    /* list-style: none; */
+/* } */
+/*  */
+/* .flex-item{ */
+    /* background: blue; */
+    /* height: 50px; */
+    /* width: 50px; */
+    /* line-height: 50px; */
+    /* font-size: 20px; */
+    /* color: white; */
+    /* text-align: center; */
+    /* margin: 5px; */
+/* } */
+/*  */
+/* .row{ */
+    /* flex-direction: row; */
+/* } */
+/*  */
+/* .row-reverse{ */
+    /* flex-direction: row-reverse; */
+/* } */
+/*  */
+/* .row-reverse li { */
+    /* background-color: red; */
+/* } */
+/*  */
+/* .column{ */
+    /* float: left; */
+    /* flex-direction: column; */
+/* } */
+/*  */
+/* .column li{ */
+    /* background: orange; */
+/* } */
+/*  */
+/* .column-reverse{ */
+    /* float: right; */
+    /* flex-direction: column-reverse; */
+/* } */
+/*  */
+/* .column-reverse li { */
+    /* background: purple; */
+/* } */
+/*  */
+
+.flex-container{
+    display: flex;
+    height: 150px;
+    border: 2px solid black;
+    max-width: 310px;
+    flex-direction: column;
+}
+
+.item{
+    font-size: 24px;
+    height: 50%;
+    text-align: center;
+    line-height: 50px;
+    min-width: 100px;
+}
+
+.nowrap{
+    flex-wrap: nowrap;
+}
+
+.wrap{
+   flex-wrap: wrap; 
+}
+
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
